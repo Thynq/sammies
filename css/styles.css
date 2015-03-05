@@ -1,0 +1,225 @@
+styles.css
+
+/************************
+GENERAL
+************************/
+html, body{
+	height:100%;
+	margin:0;
+}
+
+body{
+	background-color: #E8DF9C;
+	position:fixed !important;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+ul {
+	list-style: none;
+}
+
+
+
+
+/************************
+NAVIGATION
+************************/
+
+#navburger {
+	overflow: hidden;
+	height: 20%;
+	position: fixed;
+	top: 6%;
+	left: 3%;
+	-webkit-transition: height 0.5s linear;
+  	transition: height 0.5s linear;
+}
+
+#navburger img:hover {
+  	opacity: 1;
+}
+
+nav{
+	left: 5%;
+	margin-top: 50px;
+}
+
+nav img{
+	display: block;
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	height: 6em;
+	width: 6em;
+	border: 4px solid #F75E50;
+	box-shadow: 0 0 0 10px #EAC761;
+	margin: 40px; 
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav li{
+	display: block;
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	margin: 25px 0;
+	height: 6em;
+	width: 6em;
+
+
+}
+
+#hiddennavlinks a:hover { opacity: 1; }
+ 
+#navburger:hover { height: 100% }
+
+
+/************************
+FOOD BUBBLES
+************************/
+
+
+.bigbubble {
+	height: 12em;
+	width: 12em;
+}
+
+.mediumbubble{
+	height: 6em;
+	width: 6em;
+}
+
+.smallbubble{
+	height: 3em;
+	width: 3em;
+}
+
+img{
+	border-radius: 100%;
+	border: 4px solid #F75E50;
+	box-shadow: 0 0 0 10px #EAC761;
+}
+
+
+
+/*
+.circle::before{
+	content: " ";
+	width: 5px;
+	height: 5px;
+	border-radius: 100px;*/
+
+/*}
+.circle:hover{
+	transition: all 1s ease-in-out;
+ 	-webkit-animation: radiate 2s all ease-in-out;
+}
+*/
+/*#bigbubble::before, #bigbubble::after {
+	content: " ";
+	border-radius: 100%;
+	position: absolute;
+	border: 7px solid red;
+}*/
+
+/************************
+INDIVIDUAL FOOD BUBBLES HOME
+************************/
+
+
+#cheese img{
+	position:fixed;
+	right: 55%;
+	top: 37%;
+}
+
+#cheesy img{
+	position: fixed;
+	right: 10%;
+	top: 30%;
+}
+
+#chicken img{
+	position: fixed;
+	right: 90%;
+	top: 60%;
+}
+
+#egg img{
+	position: fixed;
+	right: 72%;
+	top: 74%;
+}
+
+#flaky img{
+	position: fixed;
+	right: 40%;
+	top: 20%;
+}
+
+#icecream img{
+	position: fixed;
+	right: 15%;
+	top: 90%;
+}
+
+#meatsub img{
+	position: fixed;
+	right: 35%;
+	top: 55%;
+}
+
+#pbandj img{
+	position: fixed;
+	right: 5%;
+	top: 64%;
+}
+
+#toothpick img{
+position: fixed;
+	right: 10%;
+	top: 5%;
+}
+
+#grain img{
+position: fixed;
+	right: 60%;
+	top: 7%;
+}
+
+#turkey img{
+position: fixed;
+	right: 45%;
+	top: 80%;
+}
+
+#tuna img{
+position: fixed;
+	right: 76%;
+	top: 29%;
+}
+
+
+
+
+
